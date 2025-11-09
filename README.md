@@ -36,6 +36,7 @@ and your photo is the new canvas.
 
 ## Project Structure
 
+```
 neuralcanvas/
 ├── app/
 │ └── streamlit_app.py # Streamlit web app
@@ -48,7 +49,7 @@ neuralcanvas/
 ├── assets/ # Example styles, demo images
 ├── requirements.txt
 └── README.md
-
+```
 
 ---
 
