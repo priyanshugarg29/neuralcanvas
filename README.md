@@ -57,15 +57,16 @@ neuralcanvas/
 Clone the repository and install dependencies:
 
 ```
-
 bash
 git clone https://github.com/<your-username>/neuralcanvas.git
 cd neuralcanvas
 pip install -r requirements.txt
+```
 
 Run the App Locally
+```
 streamlit run app/streamlit_app.py
-
+```
 
 Then open your browser to `http://localhost:8501`
 
@@ -73,7 +74,7 @@ Then open your browser to `http://localhost:8501`
 Upload your photo, choose a style, adjust the slider,
 and watch your image transform before your eyes.
 
-Requirements
+## Requirements
 
 Python ≥ 3.9
 
@@ -89,7 +90,7 @@ numpy
 
 (See requirements.txt for exact versions.)
 
-Deployment
+## Deployment
 
 You can deploy NeuralCanvas easily on Streamlit Cloud:
 
@@ -103,12 +104,12 @@ Connect your repo and set the entry point as app/streamlit_app.py.
 Your live app will be available at:
 https://neuralcanvas.streamlit.app
 
-Example Output
+## Example Output
 Content	Style	Result
 
 	
 
-To train your own style model:
+## To train your own style model:
 
 python src/train.py --style_image path/to/style.jpg --dataset path/to/coco/
 
@@ -116,7 +117,7 @@ python src/train.py --style_image path/to/style.jpg --dataset path/to/coco/
 This will create a new model checkpoint under models/.
 Replace it in the app to use your custom style.
 
-Credits
+## Credits
 
 Fast Neural Style Transfer – Johnson, Alahi & Fei-Fei (2016)
 
@@ -124,7 +125,7 @@ VGG19 feature extractor – Simonyan & Zisserman (2014)
 
 Streamlit UI – https://streamlit.io
 
-License
+## License
 
 MIT License © 2025 Your Name
 You are free to use, modify, and share this project with attribution.
